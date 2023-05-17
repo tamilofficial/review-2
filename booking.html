@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Booking</title>
+  <link rel="stylesheet" href="booking.css">  
+</head>
+<body>
+  <header>
+    <h1>Car Booking</h1>
+  </header>
+  
+  <main>
+    <section class="booking-form">
+      <h2>Book a Car</h2>
+      <form>
+        <div>
+          <label for="pickup-location">Pickup Location:</label>
+          <input type="text" id="pickup-location" name="pickup-location" required>
+        </div>
+        <div>
+          <label for="dropoff-location">Drop-off Location:</label>
+          <input type="text" id="dropoff-location" name="dropoff-location" required>
+        </div>
+        <div>
+          <label for="pickup-date">Pickup Date:</label>
+          <input type="date" id="pickup-date" name="pickup-date" required>
+        </div>
+        <div>
+          <label for="pickup-time">Pickup Time:</label>
+          <input type="time" id="pickup-time" name="pickup-time" required>
+        </div>
+        <div>
+          <label for="return-date">Return Date:</label>
+          <input type="date" id="return-date" name="return-date" required>
+        </div>
+        <div>
+          <label for="return-time">Return Time:</label>
+          <input type="time" id="return-time" name="return-time" required>
+        </div>
+        <div>
+          <input type="submit" value="Book Now" class="btn">
+        </div>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Car Booking. All rights reserved by tamil.</p>
+  </footer>
+</body>
+</html>
